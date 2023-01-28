@@ -28,7 +28,7 @@ specifiers:
   ts-jest: 28.0.8
   ts-loader: ^9.4.2
   ts-node: ^10.9.1
-  tsconfig-paths: 4.1.0
+  tsconfig-paths: 4.1.2
   tsup: ^6.5.0
   tsx: ^3.12.2
   typescript: ^4.9.4
@@ -63,7 +63,7 @@ devDependencies:
   ts-jest: 28.0.8_nib2nxws43hyf3g43iu73a4nyu
   ts-loader: 9.4.2_3fkjkrd3audxnith3e7fo4fnxi
   ts-node: 10.9.1_rk4w2fftyldfpt6yea273bd34m
-  tsconfig-paths: 4.1.0
+  tsconfig-paths: 4.1.2
   tsup: 6.5.0_a3rgnbxyelnfiui2mvndolhhwy
   tsx: 3.12.2
   typescript: 4.9.4
@@ -4694,8 +4694,8 @@ packages:
       yn: 3.1.1
     dev: true
 
-  /tsconfig-paths/4.1.0:
-    resolution: {integrity: sha512-AHx4Euop/dXFC+Vx589alFba8QItjF+8hf8LtmuiCwHyI4rHXQtOOENaM8kvYf5fR0dRChy3wzWIZ9WbB7FWow==}
+  /tsconfig-paths/4.1.2:
+    resolution: {integrity: sha512-uhxiMgnXQp1IR622dUXI+9Ehnws7i/y6xvpZB9IbUVOPy0muvdvgXeZOn88UcGPiT98Vp3rJPTa8bFoalZ3Qhw==}
     engines: {node: '>=6'}
     dependencies:
       json5: 2.2.3
