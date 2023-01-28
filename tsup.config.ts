@@ -1,11 +1,14 @@
 import { defineConfig } from "tsup";
 
-export default defineConfig({
+export default defineConfig(({ watch }) => ({
   entry: ["src/main.ts"],
-  format: ["cjs", "esm"],
+  format: ["cjs"],
   treeshake: true,
-  minify: true,
+  bundle: true,
+  clean: true,
   tsconfig: "tsconfig.build.json",
   dts: true,
-  onSuccess: 'node dist/main.js',
-});
+  onSuccess: watch
+    ? "node --enable-source-maps dist/main.js --inspect"
+    : undefined,
+}));
