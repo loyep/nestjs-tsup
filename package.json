@@ -34,7 +34,7 @@
     "@types/cross-spawn": "^6.0.2",
     "cross-spawn": "^7.0.3",
     "@types/jest": "29.4.0",
-    "@types/node": "^16.18.11",
+    "@types/node": "^18.15.11",
     "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "^5.50.0",
     "@typescript-eslint/parser": "^5.50.0",
